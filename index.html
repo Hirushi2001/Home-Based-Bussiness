@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" >
+
+
+    <style>
+        
+.dropbtn{
+    background-color: rgb(5, 4, 5);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+   .dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(6, 9, 9);
+    min-width:100px;
+    box-shadow: 0px,8p,16px,0px;
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px,16px;
+    text-decoration: none;
+    display: block;
+
+}
+.dropdown-content a:hover{
+    background-color: white;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover.dropbtn{
+    background-color: blue;
+}
+    </style>
+
+
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" class="logo">
+           Home-based
+            <span style="color: red;"> business </span>
+        </a>
+    <div class="navbar-right">
+        <a href="index.html" class="active">
+            Home
+        </a>
+        <a href="aboutus.html">
+            About us
+        </a>
+      
+    <div class="dropdown">
+        <button class="dropbtn">Bussinesses<button>
+        <div class="dropdown-content">
+            <a href="bis1.html">1.Business</a>
+            <a href="bis2.html">2.Business</a>
+            <a href="bis3.html">3.Business</a>
+        </div>
+    </div>
+
+    <a href="to do.html">
+            To do list
+        </a>
+        <a href="contact.html">
+            contact us
+        </a>
+     </div>
+     <div class="navbar-right">
+         <a class="icon">
+             <i class="fa fa-bars"></i>
+         </a>
+     </div>
+    </div>
+
+    <div  id="slideshow-container" class="slideshow-container">
+        <div  class="slide-item bg" style="background-image:url(flowepllant5.jpg );">
+            <div class="caption">
+                <h2> Ganu Plant Nursery </h2>
+                <p > A plant nursery is a business where plants are propagated, grown and sold.
+                     The plants can be sold to home gardeners or to commercial entities such as landscape companies or groceries.
+                     Plant nurseries need a large space so that the species can develop well and without any type of competition.
+                      We know that natural ecosystems, plants have continuous competition for territories and resources. 
+                      In this case, Each plant has its own space and the vast majority of them grow in pots.
+                    </p>
+                <button>
+                    Read more
+                </button>
+            </div>
+        </div>
+        <div  class="slide-item bg" style="background-image:url(carpet.jpg);">
+            <div class="caption">
+                <h2> Senitha Coir Products</h2>
+                <p > The Sri Lankan coconut coir and coir-based product manufacturers have been a major cottage industry in Sri 
+                    Lanka for centuries. The unique technique is known as the ‘drum system’ is used to extract fibre, producing long pure
+                     fibre.Today the coconut coir product industry includes large corporations as well as SMEs producing a range of agricultural,
+                      household, and industrial products for the global market.</p>
+                <button>
+                    Read more
+                </button>
+            </div>
+        </div>
+        <div  class="slide-item bg" style="background-image:url( cover.jpg);">
+            <div class="caption">
+                <h2> Disekara Clay Related Products</h2>
+                <p > Clay is an eco-friendly material. It plays an important role in the environment itself by being a natural scavenger of pollutants. 
+                    The natural source is structured in a way that it collaborates with water to increase its quality. As a result, clay is well known for 
+                    its hygienic quality. (1) This amazing material is moulded into different
+                     shapes and forms giving opportunity for hidden talents to find its way to the surface. Sri Lanka is a country that has a long history
+                      with such clay-based products..</p>
+
+                    
+                <button>
+                    Read more
+                </button>
+            </div>
+        </div>
+
+        <div  class="slide-control">
+            <span class="dot" onclick="chooseSlide(0)"></span>
+            <span class="dot" onclick="chooseSlide(1)"></span>
+            <span class="dot" onclick="chooseSlide(2)"></span>
+
+        </div>
+    </div>
+    <script src="index.js"></script> 
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+        
+                  <div class="footer-col">
+                        <h4>Business</h4>
+                        <ul>
+                       <li><a href="bis1.html">Plant Nursery</a></li>
+                       <li><a href="bis2.html">Clay Related Product</a></li>
+                       <li><a href="bis3.html">Coir Product</a></li>
+                       
+                                     
+                        </ul>
+                  </div>
+                 <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                        <li><a href="aboutus.html">About Businessman</a></li>
+                        <li><a href="contact.css">Telephone No</a></li>
+                       
+                                     
+                        </ul>     
+                 </div>
+                 <div class="footer-col">
+                    <h4>online Shopping</h4>
+                    <ul>
+                     <li><a href="to do.html">Shopping</a></li>
+                     
+
+                    </ul>     
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                  
+                        <div class="social-links">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                         </div>  
+                                  
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+    
+</body>
+</html>
